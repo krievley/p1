@@ -1,0 +1,38 @@
+﻿body {
+    width: 100%;
+}
+div {
+    border: solid;
+    border-color: black;
+    border-width: thin;
+}
+img {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: -190px;
+}
+h1 {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Eras Light ITC';
+    background-color: lightpink;
+}
+#main {
+    width: 100%;
+}
+#header {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
