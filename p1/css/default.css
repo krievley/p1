@@ -8,9 +8,7 @@ body {
     width: 100%;
 }
 div {
-    border: solid;
-    border-color: black;
-    border-width: thin;
+    
 }
 img {
     margin-left: 15px;
@@ -24,20 +22,33 @@ h1 {
     text-align: center;
     font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
     font-weight: lighter;
-    background-color: lightpink;
+    color: lightpink;
+    background-color: black;
 }
 h2 {
-    font-family: 'Bradley Hand ITC';
+    font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
     font-size: 32px;
     font-weight: lighter;
 }
 h3 {
     font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: lighter;
     width: 100%;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 5px;
+}
+h4 {
+    font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+p {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: lighter;
 }
 #main {
     width: 100%;
@@ -48,6 +59,26 @@ h3 {
     margin-left: auto;
     margin-top: 50px;
 }
+#body {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255,182,193, 0.1);
+}
+#footer {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+}
+
 .container {
     max-width: 960px;
     margin-right: auto;
@@ -62,30 +93,38 @@ h3 {
 .col4 {
     display: inline-block;
     width: 32%;
-    position: relative;
     border-style: solid;
     border-width: thin;
     border-radius: 5px;
     border-color: darkgray;
 }
 .icon {
-    height: 60px;
-    width: 60px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 15px;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    margin: 3px;
     display: inline-block;
 }
-
+.img-container {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
 .link {
-    padding-left: 7px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
     font-style: italic;
     color: darkgray;
     display: inline-block;
+    z-index: 50;
+    margin: 0;
+}
+.ins-col {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 @media screen and (max-width: 991px) {
     img {
