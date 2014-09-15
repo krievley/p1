@@ -1,4 +1,10 @@
-﻿body {
+﻿@font-face {
+font-family: 'Eras Light ITC';
+font-style: normal;
+font-weight: normal;
+src: local('Eras Light ITC'), url('ERASLGHT.woff') format('woff');
+}
+body {
     width: 100%;
 }
 div {
@@ -16,8 +22,22 @@ h1 {
     width: 100%;
     padding: 5px;
     text-align: center;
-    font-family: 'Eras Light ITC';
+    font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
+    font-weight: lighter;
     background-color: lightpink;
+}
+h2 {
+    font-family: 'Bradley Hand ITC';
+    font-size: 32px;
+    font-weight: lighter;
+}
+h3 {
+    font-family: 'Eras Light ITC', 'Eras ITC', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
 }
 #main {
     width: 100%;
@@ -35,4 +55,44 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
 }
+.secondary {
+    padding: 25px;
+    margin-top: 75px;
+}
+.col4 {
+    display: inline-block;
+    width: 32%;
+    position: relative;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: darkgray;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    display: inline-block;
+}
 
+.link {
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    font-style: italic;
+    color: darkgray;
+    display: inline-block;
+}
+@media screen and (max-width: 991px) {
+    img {
+        margin: 5px;
+    }
+
+    .container {
+        text-align: center;
+    }
+}

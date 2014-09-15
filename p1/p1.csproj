@@ -59,7 +59,9 @@
   <ItemGroup>
     <Content Include="css\default.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="images\Digital Ocean.JPG" />
     <Content Include="images\kristin.jpeg" />
+    <Content Include="images\soc_github.png" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
