@@ -62,15 +62,24 @@
     <Content Include="images\Digital Ocean.JPG" />
     <Content Include="images\email-icon.png" />
     <Content Include="images\github.png" />
+    <Content Include="images\Harvard_logo.jpg" />
     <Content Include="images\kristin.jpeg" />
+    <Content Include="images\normalize_css.png" />
+    <Content Include="images\Octocat.png" />
     <Content Include="images\soc_github.png" />
     <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\default.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
