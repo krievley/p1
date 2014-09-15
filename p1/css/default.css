@@ -95,6 +95,7 @@ p {
     border-width: thin;
     border-radius: 5px;
     border-color: darkgray;
+    padding-bottom: 25px;
 }
 .icon {
     text-align: center;
