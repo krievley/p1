@@ -1,6 +1,6 @@
 # p1 Project
 ## Live URL
-p1.kristin-rievley.me
+http://p1.kristin-rievley.me/
 
 ## Description
 One page website to house future projects.

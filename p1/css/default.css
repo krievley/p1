@@ -7,8 +7,8 @@ src: local('Eras Light ITC'), url('ERASLGHT.woff') format('woff');
 body {
     width: 100%;
 }
-div {
-    
+a {
+    color: black;
 }
 img {
     margin-left: 15px;
@@ -131,7 +131,6 @@ p {
     margin: 0;
 }
 .foot {
-    min-height: 500px;
     border: none;
 }
 @media screen and (max-width: 991px) {
