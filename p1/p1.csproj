@@ -66,6 +66,7 @@
     <Content Include="images\kristin.jpeg" />
     <Content Include="images\normalize_css.png" />
     <Content Include="images\Octocat.png" />
+    <Content Include="images\p1favicon.ico" />
     <Content Include="images\soc_github.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
